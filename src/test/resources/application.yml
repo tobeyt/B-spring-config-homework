@@ -1,0 +1,15 @@
+spring:
+  profiles: equal
+levelNumber: 1
+
+---
+
+spring:
+  profiles: less
+levelNumber: -1
+
+---
+
+spring:
+  profiles: more
+levelNumber: 2
